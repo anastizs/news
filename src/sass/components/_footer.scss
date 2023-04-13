@@ -1,0 +1,25 @@
+/* Загальні стилі для футера */
+
+footer {
+  background-color: $secondaryTextColor;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 14px;
+  color: $darkBgColor;
+  justify-content: center;
+  height: 130px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: auto;
+  margin-bottom: 0;
+  gap: 16px;
+}
+
+.footer-title {
+  font-size: 12px;
+}
+

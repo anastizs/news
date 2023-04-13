@@ -1,0 +1,49 @@
+.dark {
+  & body {
+    background-color: $darkBgColor;
+    color: $lightBgColor;
+    fill: $lightBgColor;
+  }
+  & .menu-container {
+    background-color: $darkBgColor;
+  }
+  & .switch-dark {
+    color: $accentBgColor;
+  }
+  & .switch-light {
+    color: $lightBgColor;
+    opacity: 0.4;
+  }
+  & .icon-moon {
+    stroke: $accentBgColor;
+  }
+  & .icon-sun {
+    stroke: $darkCheckColor;
+  }
+  & .search {
+    border-color: $lightBgColor;
+  }
+  & .search-input {
+    color: $lightTextColor;
+    background-color: $darkBgColor;
+  }
+  & .search-symbol {
+    color: $lightTextColor;
+    background-color: $darkBgColor;
+  }
+  & .categories__button {
+    background-color: $whiteColor;
+  }
+  & .active-category {
+    color: $whiteColor;
+    background-color: $accentBgColor;
+  }
+  .site-nav__link {
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $darkBgColor;
+      color: $accentColor;
+    }
+  }
+}

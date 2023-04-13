@@ -1,0 +1,18 @@
+.favorite {
+  min-height: calc(100vh - 130px);
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  &__no-news {
+    margin: 0 auto;
+  }
+}
